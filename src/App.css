@@ -1,0 +1,45 @@
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #e94560 !important;
+  box-shadow: 0 0 0 0.2rem rgba(233, 69, 96, 0.25);
+}
+
+.btn-primary {
+  background-color: #1a1a2e;
+  border-color: #1a1a2e;
+}
+
+.btn-primary:hover {
+  background-color: #16213e;
+  border-color: #16213e;
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.badge {
+  font-size: 0.8rem;
+}
+
+.alert {
+  border-radius: 12px;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
